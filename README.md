@@ -20,7 +20,8 @@ crewai install
 ```
 ### Customizing
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+**Add your `OPENAI_API_KEY={key}` into the `.env` file**
+**Add your `MODEL=gpt-4o-min` into the `.env` file**
 
 - Modify `src/market_outlook_client_crew/config/agents.yaml` to define your agents
 - Modify `src/market_outlook_client_crew/config/tasks.yaml` to define your tasks
@@ -28,10 +29,6 @@ crewai install
 - Modify `src/market_outlook_client_crew/main.py` to add custom inputs for your agents and tasks
 
 ## Running the Project
-Make sure you have .env file with below 2 parameters \n
-MODEL=gpt-4o-mini \n
-OPENAI_API_KEY=Test \n
-
 To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
 
 ```bash
